@@ -1,0 +1,67 @@
+.intro{
+    background-color: blue;
+    height: 150px;
+    width: 90%;
+    margin: 30px auto;
+}
+
+
+img{
+    height: 100px;
+    width: 100px;
+    margin: 20px 20px 20px ;
+    float: left;
+}
+
+.name,.address,.contact{
+    text-align: center;
+    margin: 1vh;
+    color: white;
+
+}
+.name{
+    margin: 2vh;  
+}
+
+#education,#qualification{
+    float: left;
+    font-family: Arial;
+}
+
+#education,#skills,#language,#interest{
+    border: 1px solid blue;
+    width: 45%;
+    height: 30px; 
+    text-align: center;
+    color: blue;
+    font-family: Arial;
+    font-weight: bold;
+    padding-top: 3px;
+}
+
+#skills,#skillList,#language,#languageList,#interest,#interestList{
+    float: right;
+    font-family: Arial;
+}
+
+#skillList,#languageList,#interestList{
+    width: 45%;
+    color: rgb(40, 55, 66);
+}
+#interestList{
+    display: inline-block;
+}
+
+.bottom{
+    width: 90%;
+    margin: 30px auto;  
+}
+
+.bold{
+    font-size:20px;
+    color: rgb(40, 55, 66);
+}
+
+.year{
+    color: rgba(26, 29, 184, 0.541);
+}
